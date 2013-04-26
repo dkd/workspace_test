@@ -1,0 +1,39 @@
+plugin.tx_workspacetest {
+	view {
+		templateRootPath = {$plugin.tx_workspacetest.view.templateRootPath}
+		partialRootPath = {$plugin.tx_workspacetest.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_workspacetest.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_workspacetest.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_workspacetest._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-workspace-test table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-workspace-test table th {
+		font-weight:bold;
+	}
+
+	.tx-workspace-test table td {
+		vertical-align:top;
+	}
+)

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-26T08:16:02Z" product-name="workspace_test">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_workspacetest_domain_model_product">
+				<source>Product</source>
+			</trans-unit>
+			<trans-unit id="tx_workspacetest_domain_model_product.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_workspacetest_domain_model_product.price">
+				<source>Price</source>
+			</trans-unit>
+			<trans-unit id="tx_workspacetest_domain_model_product.descriptions">
+				<source>Descriptions</source>
+			</trans-unit>
+			<trans-unit id="tx_workspacetest_domain_model_product.media">
+				<source>Media</source>
+			</trans-unit>
+			<trans-unit id="tx_workspacetest_domain_model_product.related_products">
+				<source>Related Products</source>
+			</trans-unit>
+
+			<trans-unit id="tx_workspacetest_domain_model_description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_workspacetest_domain_model_description.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_workspacetest_domain_model_description.content">
+				<source>Content</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
