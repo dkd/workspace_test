@@ -131,17 +131,7 @@ $TCA['tx_workspacetest_domain_model_product'] = array(
 		'media' => array(
 			'exclude' => 0,
 			'label' => 'LLL:EXT:workspace_test/Resources/Private/Language/locallang_db.xlf:tx_workspacetest_domain_model_product.media',
-			'config' => array(
-				'type' => 'group',
-				'internal_type' => 'file_reference',
-				'allowed' => 'jpg,gif,png',
-				'show_thumbs' => '1',
-				'MM' => 'tx_workspacetest_product_file_mm',
-				'size' => 10,
-				'autoSizeMax' => 30,
-				'maxitems' => 9999,
-				'multiple' => 0,
-			),
+			'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig('media')
 		),
 		'related_products' => array(
 			'exclude' => 0,

@@ -95,19 +95,6 @@ CREATE TABLE tx_workspacetest_domain_model_description (
 );
 
 #
-# Table structure for table 'tx_workspacetest_product_file_mm'
-#
-CREATE TABLE tx_workspacetest_product_file_mm (
-	uid_local int(11) unsigned DEFAULT '0' NOT NULL,
-	uid_foreign int(11) unsigned DEFAULT '0' NOT NULL,
-	sorting int(11) unsigned DEFAULT '0' NOT NULL,
-	sorting_foreign int(11) unsigned DEFAULT '0' NOT NULL,
-
-	KEY uid_local (uid_local),
-	KEY uid_foreign (uid_foreign)
-);
-
-#
 # Table structure for table 'tx_workspacetest_product_product_mm'
 #
 CREATE TABLE tx_workspacetest_product_product_mm (
